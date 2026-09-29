@@ -17,13 +17,15 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+    process.env.NEXT_PUBLIC_SITE_URL ||
+      'https://dingluo-aleyna.github.io/aleyna-portfolio'
   ),
   title: 'Yunqi Wang (Aleyna) | Journalism & Digital Media',
   description:
     'Personal homepage of Yunqi Wang (Aleyna) — final-year Journalism and Digital Media student at Hong Kong Baptist University, with experience in financial journalism, data analysis, and FinTech.',
   icons: {
-    icon: '/assets/image/favicon.ico',
+    // GitHub Pages 子路徑前綴（與 next.config.mjs 的 basePath 一致）
+    icon: '/aleyna-portfolio/assets/image/favicon.ico',
   },
 };
 

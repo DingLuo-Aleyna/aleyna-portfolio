@@ -9,7 +9,8 @@ export default function Sidebar() {
       <div className="flex flex-col items-center lg:items-start gap-4 mb-6">
         <div className="w-[140px] h-[140px] rounded-full overflow-hidden border-4 border-border shadow-md shrink-0">
           <AppImage
-            src="/assets/image/aleyna-bg-removed.png"
+            // GitHub Pages 子路徑前綴（與 next.config.mjs 的 basePath 一致）
+            src="/aleyna-portfolio/assets/image/aleyna-bg-removed.png"
             alt="Portrait of Yunqi Wang (Aleyna)"
             width={140}
             height={140}
