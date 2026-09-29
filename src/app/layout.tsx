@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   description:
     'Personal homepage of Yunqi Wang (Aleyna) — final-year Journalism and Digital Media student at Hong Kong Baptist University, with experience in financial journalism, data analysis, and FinTech.',
   icons: {
-    icon: '/assets/image/aleyna.png',
+    icon: '/assets/image/favicon.ico',
   },
 };
 
